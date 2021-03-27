@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+    </style>
+    <script type="text/javascript">
+
+        window.onload = function t() {
+            setInterval(f, 500);
+
+        };
+
+        function f() {
+
+            var pic = document.getElementsByTagName("img");
+
+            for (var i = 0; i < pic.length; i++) {
+                x = Math.random() * 2000;
+                y = Math.random() * 1000;
+                pic[i].style.left = x + "px"; //这里可以更改图片左边距
+                pic[i].style.top = y + "px";  //这里可以更改图片的上边
+            }
+
+
+        }
+
+
+    </script>
+</head>
+<body bgcolor="black">
+<img src="../play/img/c1.jpg" alt="">
+<img src="../play/img/c2.jpg" alt="">
+<img src="../play/img/c3.jpg" alt="">
+<img src="../play/img/c4.jpg" alt="">
+<img src="../play/img/c5.jpg" alt="">
+<img src="../play/img/c1.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+<img src="cxy.jpg" alt="">
+
+
+</body>
+</html>

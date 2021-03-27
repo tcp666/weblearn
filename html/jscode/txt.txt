@@ -1,0 +1,106 @@
+JS必须嵌入到HTML中
+    1,内嵌式
+        必须在一个标签<script>的开始和结束标签之间写
+         <script type="text/javascript">
+            写js代码
+            </script>
+
+
+    2，外联式
+        写在另外一个文件，后缀必须是.js
+        在html中通过<scrit>标签中引入
+        格式
+        aa.js文件
+         <script type="text/javascript" src="路径"  charset="utf_8">
+
+                    </script>
+JS基本语法
+    和java基本类似
+    变量的声明 ：
+               var 变量;//便令如果没有初始化可以用默认undefined;
+               赋值：
+                    定义时赋值
+                    先定义后赋值
+     数据类型：
+     Undefined undefined
+     Null
+
+     引用对象：
+     js基于对象，而不是面向对象
+运算符和java一样
+    ==值等
+    ===全等
+      var c="10";
+            var b=(c==10);    //true
+            var b=(c===10)  //false
+            alert(b);
+逻辑运算符和java一样
+
+
+
+7js中的一些操作
+    alert(内容或变量);
+
+    js 中的函数
+    格式：
+    function 函数名(参数类型 只需要参数名){
+    函数体
+    }
+    不调用不运行
+    参数个数不限
+    没有重载
+    只有覆盖
+案例的实现：
+    1，当用户点击“submit” 会发生表单（ondubmit）提交事件
+    2，吧事件与函数绑定
+       在属性中写事件名称=“函数名形成（）”
+
+
+扩展：正则表达式
+    字符串 .  matches(/^正则表达式$/)  ；
+      /^正则表达式$/.test(字符串)；
+函数定义的扩展
+    function 名（）{
+    }
+     var fun1=function(参数){
+     函数体}
+     fun1（实际参数）；
+
+     window
+定时器
+    格式：
+    windowd对象是BOM中的内置对象
+    window.setInterval(code,millisec);
+    code
+    正常js代码
+    函数名
+  id=  setTimeout()//一次性
+    claerInterval(id);  //quxiaodingshiqi qu
+
+
+1,获取HTML某个标签的内容
+
+    标签对象：innerHTML 获取标签内容
+2,有关事件、
+    1，onsubmit;提交按钮点击后，触发的表单提交事件
+    2，onblur;失去焦点事件，本来鼠标是选择该标签的，
+    3，onfocus;获取焦点
+扩展：
+
+1，BOM:浏览器对象
+    a,window对象，全局函数 setInterval setTimeout,onload，alert();//提示信息弹出框
+    confirm()//提示框，具有确定返回TRUE和取消返回FALSE按钮，
+    prompt()//可以输入信息的提示框点击确定返回你输入的消息
+
+
+
+    b,navigator:导航
+    c,screen:屏幕对象
+    d,history:浏览记录对象
+    e,locatoin:当前网页的地址动态加载网页
+
+
+数组
+  new Array();//默认值0
+  new Array（size）;//类型不定
+  new Array（）每个元素可以不一样

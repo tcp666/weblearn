@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<textarea id="text" name="root" style="display: block;background-color:red;width: 200px;height: 100px;float: left"></textarea>
+<input type="button" onclick="showName()" width="100px" height="80px">
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    function showName() {
+        var text = document.getElementById("text");
+
+      console.log(text.getAttribute("name"))
+
+        text.setAttribute("name","son")
+
+        text.focus();
+
+      var s="lisi:hhhukkjk";
+
+        var name=s.substr(0,s.indexOf(":"))
+        console.log(name)
+
+        var div="<div style='width: 300px;height: 50px;display: block;background-color:pink;'></div>";
+        $(div).insertAfter($(text));
+
+        console.log(window.location.href)
+
+    }
+</script>
+</body>
+</html>

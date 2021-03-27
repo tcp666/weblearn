@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../../jquery/js/jquery-3.4.1.min.js">
+    <script>
+        //定义方法
+        function fun() {
+            //发送异步请求
+            // 1，创建核心对象
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                //code for ie7+,firefox.chrome,opra,safari
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                //code for ie6 ie 5
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+
+            }
+
+            //2建立连接
+
+            /*
+            *参数：
+            *   1，请求方式，GET,POST
+            *   *get方式：请求参数在URL后面拼接。send为空参
+            *   *post:请求参数在send("username=tom")中定义
+            *   2，请求的URL:
+            *   3,同步或异步：true(异步)或者false(同步)
+            * */
+
+
+            var ele = document.getElementById("email");
+            alert(ele.value);
+
+            xmlhttp.open("POST", "AjaxServlet?email=" + ele.value, true);
+            //3 发送请求
+            xmlhttp.send();
+
+            // 4接受并处理来自服务器的响应结果
+            // 获取方式：xmlhttp.responseText
+            //获取时机：当服务器响应成功时获取
+            // 当这个对象的就绪状态改变时出发事件
+            xmlhttp.onreadystatechange = function () {
+                // 判断就绪状态是否为4=请求已完成，判断响应状态码是否为200=响应成功
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    var responseText = xmlhttp.responseText;
+                    alert(responseText);
+                }
+            }
+
+        }
+
+        function jaince() {
+            var cookies = document.cookie;
+            alert(cookies.length);
+
+
+        }
+
+    </script>
+</head>
+<body>
+<form action="#" method="get">
+    <table>
+        <tr>
+            <td>姓名：</td>
+            <td>
+                <input type="text" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td> E-mail:</td>
+            <td><input type="email" name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                请输入验证码：
+            </td>
+            <td>
+                <input type="text" name="checkcode" id="checkcode" onblur="jaince()" )>
+            </td>
+            <td>
+                <input type="button" name="send" value="点击发送验证码">
+            </td>
+        </tr>
+        <tr>
+            <td> 密码：</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="tijiao" id="suumit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

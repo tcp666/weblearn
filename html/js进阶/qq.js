@@ -1,0 +1,1 @@
+var userOpDiv = document.getElementsByClassName("user-op")[0];

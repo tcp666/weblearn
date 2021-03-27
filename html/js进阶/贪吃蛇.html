@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吃货</title>
+    <style>
+        .map {
+            width: 800px;
+            height: 600px;
+            background-color: #cccccc;
+            position: relative;
+
+        }
+    </style>
+
+    <script type="application/javascript">
+
+    </script>
+</head>
+<body>
+<!--画地图。设置样式-->
+
+<div class="map"></div>
+<script>
+    // 自调用函数
+    (function () {
+        var elements = [];
+
+        //创建事物对象
+        function Food(x, y, width, height, color) {
+            // 坐标
+            this.x = x;
+            this.y = y;
+            // 宽高,背景颜色
+            this.width = width || 20;
+            this.height = height || 20;
+            this.color = color || "green";
+        }
+
+        //欸原型添加初始化对象，并显示
+        //需要地图map
+        Food.prototype.init = function (map) {
+            // 先删除后添加
+            remove();
+            //创div
+            var div = document.createElement("div");
+            //添加
+            map.appendChild(div);
+            // 设置样式
+            div.style.position = "absolute";
+            div.style.width = this.width + "px";
+            div.style.height = this.height + "px";
+            div.style.backgroundColor = this.color;
+            div.style.borderRadius = this.width + "px";
+            //横纵坐标随机
+            div.style.position = "absolute";
+            this.x = parseInt(Math.random() * map.offsetWidth - this.width);
+            this.y = parseInt(Math.random() * map.offsetHeight - this.height);
+
+            div.style.left = this.x + "px";
+            div.style.top = this.y + "px";
+            // 吧div放到数组中
+            elements.push(div);
+
+        };
+
+        //死有函数--删除食物
+        function remove() {
+            //elements数组中有数组
+            for (var i = 0; i < elements.length; i++) {
+                var ele = elements[i];
+                //父亲杀儿子
+                ele.parentNode.removeChild(ele);
+                // 删掉子元素
+                elements.splice(i, 1);
+            }
+
+        }
+        // 暴露给window
+        window.Food = Food;
+
+
+    }());
+
+    //子调用校舍
+    (function () {
+        function Snake(width, height, direction) {
+
+            var elements = [];//存放小蛇身体
+            //舍身每个部分
+            this.width = width || 20;
+            this.height = height || 20;
+//小蛇身体
+            this.body = [
+                {x: 3, y: 2, color: "red"},
+                {x: 2, y: 2, color: "yellow"},
+                {x: 1, y: 2, color: "green"}
+            ];
+
+            this.direction = direction || "right";
+
+        }
+
+        //原型
+        Snake.prototype.init = function (map) {
+            //
+            for (vari = 0; i < this.body.length; i++) {
+                //每个都是对象
+                var obj = this.body[i];
+
+                var div = document.createElement("div");
+                map.appendChild(div);
+                div.style.position = "absolute";
+                div.style.width = this.width + "px";
+                div.style.height = this.height + "px";
+                div.style.top = obj.x * this.width + "px";
+                div.style.left = obj.y * this.height + "px";
+                div.style.backgroundColor = obj.color;
+
+                elements.push(div);
+            }
+        };
+
+        window.Snake = Snake;
+
+    }());
+
+
+    // 测试代码
+    var fd = new Food();
+    fd.init(document.querySelector(".map"));
+    var snake = new Snake(document.querySelector(".map"));
+    console.log(fd.width);
+</script>
+</body>
+</html>

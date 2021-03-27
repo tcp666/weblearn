@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .commentList {
+            width: 200px;
+            height: auto;
+            margin: 0 auto;
+            background: wheat;
+        }
+
+        .commentList > footer {
+            width: 100%;
+            height: auto;
+            display: block;
+            float: left;
+
+        }
+
+        .footerLeft {
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            background: green;
+            display: block;
+            float: left;
+        }
+
+        .commentList > .commnetRoot > footer > p {
+            width: auto;
+            height: 30px;
+            line-height: 20px;
+            background-color: red;
+            display: block;
+            float: left;
+        }
+
+        .commentList > .commnetRoot > footer > a {
+            width: auto;
+            height: 30px;
+            line-height: 30px;
+            font-style: normal;
+            display: block;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div class="commentList">
+    <div class="commnetRoot">
+        <footer>
+            <div class="footerLeft">
+            </div>
+            <p>:我觉得很有道理</p>
+            <a href="javaScript:">回复</a>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

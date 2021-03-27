@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <script>
+        var exp = "";
+
+        var exp1 = "";
+
+        function f(id) {
+            var s1 = document.getElementById(id);
+            var s2 = document.getElementById("00001");
+            if (s1.value == "=") {
+                var rezult = eval(exp);
+                exp = exp + s1.value + rezult;
+                exp1 = exp1 + s1.value + rezult;
+                s2.value = exp1;
+                exp = "";
+            } else if (s1.value == "%") {
+                exp = exp + "/100";
+                exp1 = exp1 + "%";
+                s2.value = exp1;
+            } else if (s1.value == "清屏") {
+                exp = "";
+                exp1 = "";
+                s2.value = exp1;
+
+            } else if (s1.value == "退格") {
+                exp = exp.substr(0, exp.length - 1);
+                exp1 = exp1.substr(0, exp1.length - 1);
+                s2.value = exp1;
+            } else {
+                exp = exp + s1.value;
+                exp1 = exp1 + s1.value;
+                s2.value = exp1;
+            }
+        }
+    </script>
+    <style type="text/css">
+        td {
+            border: 4px;
+            width: 100px;
+            height: 40px;
+        }
+
+        input {
+            border: 10px red;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            background: #807d22;
+            font-size: 100%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div style="width: 500px;background: #FFFFFF">
+
+    <table width="500px" cellpadding="0" border="1px">
+        <caption>
+            <font size="5" color="black">
+                简单计算器
+            </font>
+        </caption>
+        <tr>
+            <td style="width: 500px" colspan="5">
+                <input id="00001" type="text" value="0"
+                       style="border: 1px;width: 100%;margin: 0px;height: 40px;padding: 0px;color: #3399FF;background: #ffeaed">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="bt7" style="background: red" onclick="f('bt7')"></td>
+            <td><input type="button" value="8" id="bt8" style="background: orange" onclick="f('bt8')"></td>
+            <td><input type="button" value="9" id="bt9" style="background: yellow" onclick="f('bt9')"></td>
+            <td><input type="button" value="退格" id="bt退格" style="background: #ffc3db" onclick="f('bt退格')"></td>
+            <td><input type="button" value="清屏" id="bt清屏" style="background: #95ff31" onclick="f('bt清屏')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="bt4" style="background: #3b4cff" onclick="f('bt4')"></td>
+            <td><input type="button" value="5" id="bt5" style="background: #c069ff" onclick="f('bt5')"></td>
+            <td><input type="button" value="6" id="bt6" onclick="f('bt6')"></td>
+            <td><input type="button" value="*" id="bt*" style="background: #ffbc35" onclick="f('bt*')"></td>
+            <td><input type="button" value="/" id="bt/" style="background: palevioletred" onclick="f('bt/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" id="bt1" style="background: #c0c9ff" onclick="f('bt1')"></td>
+            <td><input type="button" value="2" id="bt2" style="background: #51ebff" onclick="f('bt2')"></td>
+            <td><input type="button" value="3" id="bt3" style="background: #ff7110" onclick="f('bt3')"></td>
+            <td><input type="button" value="+" id="bt+" style="background: #ffb499" onclick="f('bt+')"></td>
+            <td><input type="button" value="-" id="bt-" style="background: #0eff61" onclick="f('bt-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" id="bt0" style="background: #881aff" onclick="f('bt0')"></td>
+            <td><input type="button" value="00" id="bt00" style="background: #ff306e" onclick="f('bt00')"></td>
+            <td><input type="button" value="." id="bt." style="background: white" onclick="f('bt.')"></td>
+            <td><input type="button" value="%" id="bt%" style="background: #d1ff74" onclick="f('bt%')"></td>
+            <td><input type="button" value="=" id="bt=" style="background: #ff1f79" onclick="f('bt=')"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

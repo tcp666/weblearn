@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+    <script>
+        onload = function () {
+            var allA = document.getElementsByTagName("a");
+            for (var i = 0; i < allA.length; i++) {
+                allA[i].onclick = function (event) {
+                    event = event || window.event;
+                    var div = document.createElement("div");
+                    div.style.position = "absolute";
+                    div.style.left = event.clientX + "px";
+                    div.style.top = event.clientY + "px";
+                    div.style.width = 200 + "px";
+                    div.style.height = 100 + "px";
+                    div.style.backgroundColor = "red";
+                    this.append(div);
+                    // this.cancelBubble;
+
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<li onclick="function f() {
+  alert('hhhhh')
+}"><a href="javascript:">点击</a></li>
+<li><a href="javascript:">点击</a></li>
+<li><a href="javascript:">点击</a></li>
+<li><a href="javascript:">点击</a></li>
+<li><a href="javascript:">点击</a></li>
+<li><a href="javascript:">点击</a></li>
+<li><a href="javascript:">点击</a></li>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="layer/layer.js"></script>
+    <script>
+        // layer. confirm('您是如何有付前端开发?',{
+        // btn: ['重要',' 奇葩']
+        // }, function(){
+        //     layer .msg('的确很重要',{icon: 1});
+        // },function(){
+        //     layer .msg('也可以这样',{
+        //         time:20000,
+        //         btn:[ '明白了',' 知道了']
+        //     });
+        // });
+
+    </script>
+
+    <script>
+        window.onload = function () {
+            var btn = document.getElementById("btn");
+            btn.onclick = function () {
+                layer.confirm('您是如何有付前端开发?', {
+                        btn: ['重要', ' 奇葩', '一般']
+                    },
+                    function () {
+                        layer.msg('的确很重要', {icon: 1});
+                    },
+                    function () {
+                        layer.msg('也可以这样', {
+                            time: 20000,
+                            btn: ['明白了', ' 知道了']
+                        })
+                    },
+                    function () {
+                        layer.msg('的确很一般', {icon: 1});
+                    }
+                )
+            }
+        }
+    </script>
+</head>
+<body>
+<input id="btn" type="button" value="问题">
+</body>
+</html>

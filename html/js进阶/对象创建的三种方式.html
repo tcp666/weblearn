@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //对象：特制的某个事物
+
+        //特征：1，属性2，方法
+
+        //1 字面量的方式
+        //2，调用系统的构造函数
+        //3，自定义构造函数方式
+
+
+        // var per1={
+        //     name:"tcp",
+        //     age:20,
+        //     eat:function () {
+        //         console.log("先睡");
+        //     },
+        //     readbook:function () {
+        //
+        //        console.log("xiyouji");
+        //     }
+        // };
+        //
+        // var per2=new Object();
+        // per2.name="tcp";
+        // per2.age=20;
+        // p2.eat=function () {
+        //     console.log("chiqianxianshui");
+        // };
+        // p2.readbook=function () {
+        //     console.log("dushumeiyouyong");
+        // };
+        //
+        // var dog=new Object();
+
+        function Person(name, age, sex) {
+            this.name = name;
+            this.age = age;
+            this.sex = sex;
+            this.paly = function () {
+                console.log("tiantiandayouxi");
+            };
+
+
+        }
+        var person = new Person("tcp", 20, "nan");
+        alert(typeof person);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

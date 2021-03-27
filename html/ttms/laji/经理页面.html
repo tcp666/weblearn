@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航界面</title>
+    <style type="text/css">
+        td {
+            width: 400px;
+            height: 100px;
+            color: red;
+        }
+
+        input {
+            width: 399px;
+            height: 99px;
+            background: #3164af;
+            font-size: 50px;
+
+        }
+    </style>
+    <script type="text/javascript">
+        // 功能按键点机函数
+        function btclick(value) {
+            var ele = window.document.getElementById(value);
+            if (ele.value == "影厅管理") {
+                var x =
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+<!--顶部-->
+<div style="border: #FFFFFF;width: 100%;height: 100px;background: #51ebff;position: absolute;left: 0px;top: 0px">
+    <form action="">
+        <p align="center">
+            <font size="7" color="blue">
+                汉唐剧院管理系统
+            </font>
+        </p>
+    </form>
+
+</div>
+<!--导航-->
+<div style="position: absolute;left: 0px;top:100px;width: 400px;background: #c0c9ff;height: 800px">
+    <table border="1px" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center"><font color="red" size="20px">功能列表</font></td>
+        </tr>
+        <tr>
+            <td><input id="bu1" type="button" value="影厅管理"></td>
+        </tr>
+        <tr>
+            <td><input id="bu2" type="button" value="座位管理"></td>
+        </tr>
+        <tr>
+            <td><input id="bu3" type="button" value="剧目管理"></td>
+        </tr>
+        <tr>
+            <td><input id="bu4" type="button" value="计划管理"></td>
+        </tr>
+        <tr>
+            <td><input id="bu5" type="button" value="员工管理" onclick="fbtclick()"></td>
+        </tr>
+    </table>
+</div>
+<!--查询-->
+<div style="position: absolute;left: 400px;top: 100px;">
+    <form action="">
+        <table cellpadding="0" cellspacing="0" border="0px">
+            <tr>
+                <td>
+                    <input type="text" value=" 影厅名称：" style="border: 0px white;background: white">
+                </td>
+                <td colspan="2">
+                    <input type="text" style="background:white;color: black">
+                </td>
+                <td>
+                    <input type="button" value="增加" style="background: green">
+                </td>
+                <td>
+                    <input type="button" value="删除" style="background: red">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div style="position: absolute;top: 200px;left: 400px;width: 1600px;height: 700px;background: #c0c9ff">
+
+</div>
+
+
+</body>
+</html>

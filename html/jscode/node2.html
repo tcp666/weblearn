@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>node</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border-collapse: collapse;
+            border: red solid 1px;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+
+
+    </style>
+    <script type="text/javascript">
+        function click0() {
+            alert("helloworld");
+            var fu = document.getElementById("div1").parentNode;
+            div = document.createElement("div");
+            div.style.left = 1000 + "px";
+            div.style.top = 100 + "px";
+            console.log(div);
+            fu.appendChild(div);
+        }
+
+    </script>
+
+</head>
+<div id="div1">
+    <a href="javascript:" onclick="click0()"> fdhbdfghdfg</a>
+</div>
+
+</html>

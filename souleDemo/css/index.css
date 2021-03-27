@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    height: 0;
+}
+
+.body {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+    /*background-color: lightskyblue;*/
+    background-image: url("../images/bg.jpg");
+    background-size: 1780px 1280px;
+    overflow: auto;
+}
+
+body > header {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    display: block;;
+    float: left;
+}
+
+body > header > ul {
+    padding: 0;
+    width: 90%;
+    height: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    left: 0;
+
+}
+
+body > header > ul > li {
+
+    list-style: none;
+    margin: auto auto;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    color: red;
+    float: left;
+    border-left: 2px white solid;
+    /*background-color: green;*/
+    position: relative;
+    left: 0px;
+
+}
+
+body > header > ul > #bgMusic {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    color: white;
+    float: right;
+    border-left: 2px solid;
+    /*background-color: green;*/
+
+}
+
+#liSearch {
+    width: 150px;
+}
+
+li > #search {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    resize: none;
+    text-align: center;
+}
+
+#serchSub {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    /*background-color: blue;*/
+    border-left: none;
+}
+
+#exit {
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    size: auto;
+    background-color: darkseagreen;
+    margin: 0 2px;
+    display: block;
+    float: right;
+}
+
+
+.body > .content {
+    width: 50%;
+    height: 100%;
+    /*background-color: yellow;*/
+    float: left;
+    overflow: auto;
+}
+
+.body > .contentLeft {
+    width: 25%;
+
+    margin-top: 0;
+    height: 700px;
+    display: block;
+    float: left;
+    background-repeat: repeat;
+    /*background-color: blue;*/
+    /*background-image: url("../images/yueji.jpg");*/
+    /*background-size:100% 100%;*/
+}
+
+.body > .contentRight {
+    width: 25%;
+    margin-top: 0;
+    height: 700px;
+    display: block;
+    float: right;
+    background-image: url("../images/yueji.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.content > .travelList {
+    width: 100%;
+    border: 0px solid green;
+    height: auto;
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+.travelList > .list {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.list > li {
+    width: 100%;
+    border-left: 2px white solid;
+    border-top: 2px white solid;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    display: block;
+    float: left;
+
+}
+
+.list > li > .travelHead {
+    width: 100%;
+    height: 50px;
+    display: block;
+    float: left;
+}
+
+.list > li > .travelHead > .head {
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: left;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.list > li > .travelHead > p {
+    width: 200px;
+    height: 50px;
+    display: block;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: lightyellow;
+    line-height: 50px;
+    background-color: #ff7b35;
+    opacity: 0.5;
+}
+
+.list > li > .article {
+
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+.article > p {
+    width: 100%;
+    height: auto;
+    word-break: keep-all;
+    line-break: auto;
+    font-style: normal;
+}
+
+.list > li > .imgList {
+    width: 100%;
+    height: auto;
+}
+
+.list > li > .imgList > img {
+    width: 33%;
+    margin-left: 2px;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.list > li > .functions {
+    padding: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    float: left;
+
+}
+
+.functions > li {
+    font-style: normal;
+    width: 24%;
+    text-align: center;
+    border: 2px solid white;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 0;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+
+.contentLeft > .creatMessage {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.creatMessage > textarea {
+    width: 96%;
+    padding: 5px;
+    height: 120px;
+    resize: none;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff34c9;
+    border: 3px solid #ff7b35;
+    display: block;
+    float: left;
+
+}
+
+.creatMessage > p {
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: black;
+    display: block;
+    float: left;
+
+}
+
+.creatMessage > span {
+    width: 100%;
+    height: 45px;
+    display: block;
+    float: right;
+
+}
+
+.creatMessage > span > ul {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: left;
+
+}
+
+.creatMessage > span > ul > i {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #ffc535;
+    border-radius: 2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    text-align: center;
+    background-color: #ffc535;
+    line-height: 45px;
+    display: block;
+    float: left;
+}
+
+.creatMessage > span > button {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #ffc535;
+    border-radius: 2px;
+    margin: 5px;
+    background-color: #ffc535;
+    display: block;
+    float: right;
+    width: 100px;
+    height: 45px;
+    border: 1px solid #ffc535;
+    border-radius: 2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-style: normal;
+    text-align: center;
+    background-color: #ffc535;
+    line-height: 45px;
+    display: block;
+    float: right;
+
+}
+
+.contentLeft > img {
+    width: 100%;
+    height: 400px;
+    opacity: 0.5;
+    display: block;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

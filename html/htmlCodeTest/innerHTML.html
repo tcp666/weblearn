@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--过三秒改为水帘洞-->
+    <script type="text/javascript">
+        window.onload = function () {
+            window.setTimeout(change, 2000);
+
+        };
+
+        function change() {
+            var divelement = document.getElementById("div001");
+            divelement.innerHTML = "水帘洞";
+
+        }
+    </script>
+</head>
+<body>
+<div id="div001">
+    花果山
+</div>
+</body>
+</html>

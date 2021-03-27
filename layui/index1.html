@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LayUI</title>
+
+    <link href="layui-v2.5.7/layui/css/layui.css" rel="stylesheet"/>
+    <script src="layui-v2.5.7/layui/layui.js"></script>
+</head>
+<body>
+<script>
+
+    layui.use(['layer', 'form'], function () {
+        var layer = layui.layer, form = layui.form;
+        layer.msg('hello,world')
+    });
+
+</script>
+</body>
+</html>

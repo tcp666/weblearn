@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>divTest</title>
+    <style type="text/css">
+        .header {
+            width: 1000px;
+            height: 40px;
+            background-color: #eeeeee;
+            margin: auto;
+        }
+
+        .header.logo {
+            float: left;
+            width: 100px;
+            height: 40px;
+            background-color: pink;
+        }
+
+        .header .nav {
+            float: right;
+            width: 850px;
+            height: 40px;
+            background-color: green;
+        }
+
+        .content {
+            width: 1000px;
+            height: 500px;
+            float: left;
+            background-color: yellowgreen;
+        }
+
+        .footr {
+            width: 1000px;
+            height: 500px;
+            float: left;
+            background-color: yellowgreen;
+        }
+
+        .content .main {
+            float: right;
+            width: 600px;
+            height: 500px;
+            background-color: green;
+        }
+
+        .footr {
+            width: 1000px;
+            height: 40px;
+            background-color: #eeeeee;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+<!--
+div:
+ 大的区域，大的范围
+ 容器级便签
+ 范围区域
+ 结构相似的内容放在一起
+ 自己独占一行
+ -->
+
+<!--
+span:
+文本标签
+
+ -->
+<div class="header">
+    <div class="logo"></div>
+    <div class="nav"></div>
+</div>
+<!--content-->
+<div class="content">
+    <div class="slide"></div>
+    <div class="main"></div>
+</div>
+<!--footer-->
+<div class="footr"></div>
+</body>
+</html>

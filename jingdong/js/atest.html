@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function fun(obj) {
+            console.log(obj);
+            var text = obj.innerText;
+            text = text + 3;
+            obj.innerText = text;
+        }
+    </script>
+</head>
+<body>
+<a href="javascript:" onclick="fun(this)">带你赞</a>
+</body>
+</html>

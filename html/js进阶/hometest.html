@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background: url("imgs/8680.jpg") no-repeat;
+            background-size: 100%;
+            /*overflow: hidden;*/
+        }
+
+        .main {
+            margin: 0 auto;
+            width: 600px;
+            height: 100%;
+            overflow: hidden;
+            display: block;
+            position: relative;
+
+
+        }
+
+        .main ul {
+            width: 100%;
+            height: 750px;
+            /*overflow: hidden;*/
+            position: relative;
+            float: left;
+            top: -130px;
+        }
+
+        ul li {
+            width: 100%;
+            height: 353px;
+            display: block;
+            float: top;
+        }
+
+        input {
+            width: 400px;
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        var i = 0;
+
+        function change() {
+            // alert("hello,world");
+            i += 353;
+            var list = document.getElementById("list");
+            list.style.top = -i + "px"
+        }
+
+        var j = 0;
+
+        function addImg() {
+
+
+            var imglist = [8672, 8673, 8674, 8675, 8678, 8679, 8680, 8681];
+            var imgnum = imglist[j++];
+            var li = document.createElement("li");
+            li.innerHTML = "<img src=\"imgs/" + imgnum + ".jpg\" alt=\"\">";
+            var list = document.getElementById("list");
+            list.append(li);
+        }
+
+        onload = function () {
+            var i = 0;
+            var imglist = [8672, 8673, 8674, 8675, 8678, 8679, 8680, 8681];
+            setInterval(addImg, 1000);
+
+        }
+    </script>
+</head>
+<body>
+<div class="main" onclick="change()">
+    <ul id="list">
+        <li></li>
+
+    </ul>
+
+</div>
+
+</body>
+</html>

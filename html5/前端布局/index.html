@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>导入</title>
+    <link rel="stylesheet" type="text/css" href="../../js/plugins/layui/css/layui.css"/>
+    <link rel="stylesheet" href="./../../assets/styles/font-icon.css">
+    <link rel="stylesheet" type="text/css" href="../../css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../../js/plugins/chosen/chosen.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/icon/iconfont.css"/>
+    <link rel="stylesheet" href="../../css/portal/layerPage/layer-page.css">
+    <link rel="stylesheet" href="../../css/portal/layerPage/report/collection-import.css">
+
+    <style>
+
+        .btn-box .import {
+            position: relative;
+        }
+
+        .btn-box .import > input {
+            width: 130px;
+            height: 30px;
+            cursor: pointer;
+            position: absolute;
+            font-size: 18px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+            padding-left: 0;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+<div class="report-import">
+    <div class="main">
+        <p>按格式要求进行数据导入</p>
+        <div class="btn-box clearfix">
+            <span class="download">下载EXCEL模板</span>
+            <form action="" id="fileForm"></form>
+            <span type="file" id="import" class="import">
+                        选择EXCEL文件
+                        <input type="file" id="file" name="file" onchange="fileChange(this);">
+                    </span>
+            </form>
+            <span class="name"></span>
+        </div>
+
+    </div>
+    <div class="footer">
+        <span class="btn-import">上传</span>
+    </div>
+
+</div>
+
+
+<script src="../../assets/scripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../js/portal/report/report-common.js"></script>
+
+<script>
+
+    function fileChange(target) {
+
+        var name = target.files[0].name; // 文件名
+        var size = target.files[0].size; // 文件大小
+        var suffix = pageCommon.suffix(name)[0].toLowerCase(); //后缀名
+
+        if (suffix != '.xls' && suffix != ".xlsx") { // 限制后缀
+            $('.name').html('<span style="color:red">选择的文件格式不正确</span>');
+            $('#file').val("")
+        } else if (size >= 2000000) {
+            $('.name').html('<span style="color:red">选择的excel文件最大不能超过2M</span>');
+            $(target).val("");
+            return false;
+        } else {
+            $('.name').text(name);
+        }
+    }
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="登录.css">
+    <script>
+        // 登录时跳转
+        function identifiy() {
+            var selectele = document.getElementById("身份");
+            var index = selectele.selectedIndex;
+            if (index == 0) {
+                var ele = document.getElementById("form1");
+                ele.action = "http://localhost:63342/htmlcode/html/ttms/经理页面.html";
+            } else if (index == 2) {
+                var ele = document.getElementById("form1");
+                ele.action = "http://localhost:63342/htmlcode/html/ttms/售票员界面.html";
+            } else if (index == 1) {
+                var ele = document.getElementById("form1");
+                ele.action = "http://localhost:63342/htmlcode/html/ttms/test/系统管理员.html";
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+<div id="div1">
+    <form action="" id="form1">
+        <table style="background:grey;position: absolute;top: 200px;left: 20%">
+            <tr>
+                <td>
+                    <h id="h001"> 汉唐剧院管理系统</h>
+                </td>
+                <td>
+                    管理更轻松
+                </td>
+            </tr>
+            <!--用户名-->
+            <tr>
+                <td align="right">用户名:</td>
+                <td colspan="2">
+                    <input type="text" name="username" id="name1">
+                </td>
+            </tr>
+            <!--密码-->
+            <tr>
+                <td align="right">密码:</td>
+                <td colspan="2">
+                    <input type="password" name="password" id="pws1">
+                </td>
+            </tr>
+            <!--身份-->
+            <tr>
+                <td align="right">身份:</td>
+                <td colspan="2">
+                    <select name="shenfens" id="身份">
+                        <option value="0">经理</option>
+                        <option value="1">系统管理员</option>
+                        <option value="2">售票员</option>
+                    </select>
+                </td>
+            </tr>
+            <!--提交-->
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="登录" id="bt001" onclick="identifiy()">
+                </td>
+            </tr>
+            <!--忘记密码-->
+            <tr>
+                <td align="left">
+                    <a href="http://localhost:63342/htmlcode/html/ttms/找回密码.html">找回密码</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

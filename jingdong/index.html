@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gbk">
+    <title>HTML5 Canvas画印章</title>
+</head>
+<body>
+<canvas id="canvas" width="600" height="300"></canvas>
+<script>
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext('2d');
+    var text = "脑残联盟";
+    var text1 = "刘备主公印";
+
+
+    var width = canvas.width / 2;
+    var height = canvas.height / 2;
+    context.lineWidth = 7;
+    context.strokeStyle = "#f00";
+    context.beginPath();
+    context.arc(width, height, 110, 0, Math.PI * 2);
+    context.stroke();
+
+
+    create5star(context, width, height, 20, "#f00", 0);
+
+
+    context.font = '17px Helvetica';
+    context.textBaseline = 'middle';
+    context.textAlign = 'center';
+    context.lineWidth = 2;
+    context.strokeStyle = '#f00';
+    context.strokeText(text, width, height + 50);
+
+
+    context.translate(width, height);
+    context.font = '21px Helvetica';
+    var count = text1.length;//
+    var angle = 4 * Math.PI / (3 * (count - 1));
+    var chars = text1.split("");
+    var c;
+    for (var i = 0; i < count; i++) {
+        c = chars[i];
+        if (i == 0) context.rotate(5 * Math.PI / 6);
+        else
+            context.rotate(angle);
+        context.save();
+        context.translate(90, 0);
+        context.rotate(Math.PI / 2);
+        context.strokeText(c, 0, 0);
+        context.restore();
+    }
+
+    //绘制五角星
+    /**
+     * 创建一个五角星形状. 该五角星的中心坐标为(sx,sy),中心到顶点的距离为radius,rotate=0时一个顶点在对称轴上
+     * rotate:绕对称轴旋转rotate弧度
+     */
+    function create5star(context, sx, sy, radius, color, rotato) {
+        context.save();
+        context.fillStyle = color;
+        context.translate(sx, sy);//移动坐标原点
+        context.rotate(Math.PI + rotato);//旋转
+        context.beginPath();//创建路径
+        var x = Math.sin(0);
+        var y = Math.cos(0);
+        var dig = Math.PI / 5 * 4;
+        for (var i = 0; i < 5; i++) {//画五角星的五条边
+            var x = Math.sin(i * dig);
+            var y = Math.cos(i * dig);
+            context.lineTo(x * radius, y * radius);
+        }
+        context.closePath();
+        context.stroke();
+        context.fill();
+        context.restore();
+    }
+</script>
+</body>
+</html>

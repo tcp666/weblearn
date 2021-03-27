@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Title</title>
+</head>
+<body>
+<video src="" id="demo"></video>
+<script>
+    let video = document.getElementById("demo");
+    navigator.mediaDevices.getUserMedia({
+        video: true
+    }).then(res => {
+        video.srcObject = res;
+        video.play()
+
+    })
+</script>
+</body>
+</html>

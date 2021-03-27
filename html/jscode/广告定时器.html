@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            window.setInterval(show, 200);
+        };
+
+        function show() {
+            // alert("show函数被处罚了") ;
+            var elediv = document.getElementById("div01");
+            // alert(elediv);
+            var w = elediv.style.width;
+            w = window.parseInt(w);
+
+            var h = elediv.style.height;
+            h = window.parseInt(h);
+            h *= 2;
+            w *= 2;
+
+            elediv.style.height = h + "px";
+            elediv.style.width = w + "px";
+        }
+    </script>
+</head>
+<body>
+<div id="div01" style="border: 1px solid red;width: 1px;height: 1px;background-color: yellowgreen;">
+    <form action="">
+        <table id="tb001">
+            <tr>第一行</tr>
+            <tr>第二行</tr>
+            <tr>第三行</tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

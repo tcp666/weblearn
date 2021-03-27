@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<!--
+主要用来收集数据
+<form></form>
+子标签：
+    <input>输入域  十种
+    type属性，设置样子
+     text：文本输入。20以内（字符）
+     password ；密码显示框**********
+     radio:单选框
+     checkbox:复选框
+
+     button：普通按钮
+     reset：重置按钮
+     submit: 提交按钮
+     image:图片按钮
+     都有VALVE值；名称
+
+     hidden:隐藏域（数据会提交，但页面看不见）
+     file:文件上传组件
+
+
+
+
+
+
+
+
+    <select> 下拉标签
+    <textarea> 文本域
+
+      自身属性：
+      action:动作，表示把数据提交到服务器，写的是网络地址（url）
+      method：方法：
+      get;(默认方法)数据直接拼到地址后面不安全：长度是有限制的国际规定最长128k;
+
+
+      post数据打包后提交，地址栏看不到数据相对安全，黑客可以拦截需要加密
+
+
+-->
+<body>
+<form action="#" method="post">
+    <table border="1px">
+        <tr rowspan="1">
+            <td colspan="4">
+                用户名：<input type="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                密&nbsp&nbsp&nbsp码：<input type="password">
+            </td>
+            <td colspan="3" rowspan="4">
+                您的图像：<input type="file">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                您的性别：
+                男<input type="radio" name="sex"> &nbsp
+                女<input type="radio" name="sex">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                您的兴趣：
+                抽烟<input type="checkbox" name="hobby"> &nbsp;&nbsp;
+                喝酒<input type="checkbox" name="hobby"> &nbsp;&nbsp;
+                烫头<input type="checkbox" name="hobby"> &nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="普通按钮"></td>
+            <td><input type="reset" valve="重置按钮"></td>
+            <td><input type="submit" value="提交按钮"></td>
+        </tr>
+
+    </table>
+
+
+</form>
+</body>
+</html>

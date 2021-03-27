@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>node</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border-collapse: collapse;
+            border: red solid 1px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+
+    </style>
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var ddd = document.getElementsByTagName("a");
+            var fu = document.getElementById("ddd").parentNode;
+            ddd[0].onclick = function click1() {
+                alert(fu);
+                var div = document.createElement("div");
+                div.style.left = 100 + "px";
+                div.style.top = 100 + "px";
+                console.log(div);
+                div.style.backgroundColor = "red";
+                fu.appendChild(div);
+
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div id="ddd">
+    <a href="#"> fdhbdfghdfg</a>
+</div>
+</body>
+</html>

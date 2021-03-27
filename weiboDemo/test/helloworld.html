@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+
+</head>
+<body>
+<div>
+    <input type="button" onclick="huoqu()" value="点击苏索" style="position: relative">
+    <iframe src="weibo.html" frameborder="0" width="800px" height="600px" id="myframe"></iframe>
+</div>
+<script>
+    function huoqu() {
+
+        var a;
+        var zi = document.getElementById("myframe");
+        var as = zi.contentWindow.document.getElementsByTagName("a");
+        for (var i = 0; i < as.length; i++) {
+            console.log(i + ":" + as[i].innerText)
+            if (as[i].innerText == "账号登录") {
+                a = as[i];
+                break;
+            }
+        }
+
+        console.log(a);
+        console.log(a.className);
+        console.log(a.nodeType);
+        console.log(a.href);
+zi.src=a.href;
+
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input {
+            width: 200px;
+            height: 40px;
+            background-color: green;
+        }
+
+        #fileInput {
+            display: none;
+        }
+    </style>
+    <script>
+        function chooseFile() {
+            document.getElementById("fileInput").click();
+            var file = document.getElementById("fileInput");
+        }
+    </script>
+</head>
+<body>
+<input type="file" id="fileInput">
+<input type="button" value="点击上传文件" onclick="chooseFile()">
+</body>
+</html>

@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db99d930-70c5-4c5e-83b2-fa79ed6c353f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="htmlcode" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Q8IxyvV7KVUvtPE5Lg4ojBty9I" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558340547122" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/layui" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\htmlcode\layui" />
+      <recent name="E:\htmlcode\layui\lib" />
+      <recent name="E:\htmlcode\css5" />
+      <recent name="E:\htmlcode\weiboDemo\static\images" />
+      <recent name="E:\htmlcode\weiboDemo\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\htmlcode\layui" />
+      <recent name="E:\htmlcode\weiboDemo\static\images" />
+      <recent name="E:\htmlcode\souleDemo\images" />
+      <recent name="E:\htmlcode\souleDemo\music" />
+      <recent name="E:\htmlcode\htmldemo1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="连连看.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/play/连连看.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="群魔乱舞.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/jscode/群魔乱舞.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="经理页面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/经理页面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表单元素.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/.idea/CssCode/表单元素.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录实现.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/.idea/jscode/登录实现.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="转化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/jscode/转化.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="系统管理员.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/test/系统管理员.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="经理页面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/经理页面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="经理页面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/经理页面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="经理页面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/经理页面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="转化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/jscode/转化.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="魔方.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/play/魔方.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="搜索框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/test/搜索框.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="连连看.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/连连看.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="剧目管理界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/剧目管理界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/play/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="经理页面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/经理页面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="上传图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/CssCode/上传图片.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="广告定时器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/jscode/广告定时器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="售票员界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/售票员界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录实现.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/jscode/登录实现.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="连连看.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/连连看.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="课程介绍.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/js进阶/课程介绍.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="经理页面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/经理页面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表格.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/表格.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="找回密码.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/找回密码.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表格.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/play/表格.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="基础选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/CssCode/基础选择器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="首页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/首页.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="相册.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/玩/相册.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="找回密码.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/找回密码.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="浮动效果.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/.idea/CssCode/浮动效果.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="广告定时器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/.idea/jscode/广告定时器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="登录界面.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/ttms/登录界面.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="helloworld.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/html/jquery/helloworld.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/souleDemo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/weiboDemo/static/web/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="personCenter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/souleDemo/personCenter.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="spantest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlcode/jingdong/spantest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="qqDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/qqDemo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.连连看.html" />
+      <item itemvalue="JavaScript Debug.personCenter.html" />
+      <item itemvalue="JavaScript Debug.helloworld.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.spantest.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.20" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.spantest.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.helloworld.html" />
+        <item itemvalue="JavaScript Debug.personCenter.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.06539735" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db99d930-70c5-4c5e-83b2-fa79ed6c353f" name="Default Changelist" comment="" />
+      <created>1555168590154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555168590154</updated>
+      <workItem from="1555168591719" duration="247000" />
+      <workItem from="1555333616372" duration="907000" />
+      <workItem from="1555377104025" duration="212000" />
+      <workItem from="1555574371412" duration="790000" />
+      <workItem from="1555589970670" duration="2512000" />
+      <workItem from="1555600524057" duration="1066000" />
+      <workItem from="1555647076375" duration="7000" />
+      <workItem from="1555770121285" duration="906000" />
+      <workItem from="1555822908330" duration="600000" />
+      <workItem from="1555860469350" duration="37000" />
+      <workItem from="1555985820600" duration="15292000" />
+      <workItem from="1556016847621" duration="5491000" />
+      <workItem from="1556114367329" duration="1073000" />
+      <workItem from="1556201069719" duration="25000" />
+      <workItem from="1556365458771" duration="2077000" />
+      <workItem from="1556461785114" duration="867000" />
+      <workItem from="1556499256382" duration="113000" />
+      <workItem from="1556509005196" duration="887000" />
+      <workItem from="1556515725718" duration="14000" />
+      <workItem from="1556590883836" duration="3461000" />
+      <workItem from="1556946509810" duration="1208000" />
+      <workItem from="1557050971477" duration="198000" />
+      <workItem from="1557051200202" duration="133000" />
+      <workItem from="1557051751653" duration="61000" />
+      <workItem from="1557192673853" duration="3988000" />
+      <workItem from="1557801590556" duration="11003000" />
+      <workItem from="1557915213686" duration="2358000" />
+      <workItem from="1557925829156" duration="3837000" />
+      <workItem from="1557978994984" duration="3633000" />
+      <workItem from="1558002625909" duration="4000" />
+      <workItem from="1558282078511" duration="889000" />
+      <workItem from="1558359136769" duration="121000" />
+      <workItem from="1558359285721" duration="56000" />
+      <workItem from="1558403465076" duration="105000" />
+      <workItem from="1558405044420" duration="3893000" />
+      <workItem from="1558409056988" duration="3232000" />
+      <workItem from="1558530036248" duration="638000" />
+      <workItem from="1558667232114" duration="122000" />
+      <workItem from="1559009887934" duration="2580000" />
+      <workItem from="1559538775569" duration="277000" />
+      <workItem from="1559539631481" duration="2068000" />
+      <workItem from="1559548428547" duration="46000" />
+      <workItem from="1559635398945" duration="53000" />
+      <workItem from="1559662316728" duration="4126000" />
+      <workItem from="1559711495536" duration="903000" />
+      <workItem from="1559719789423" duration="4000" />
+      <workItem from="1560317736967" duration="11000" />
+      <workItem from="1560328635244" duration="3059000" />
+      <workItem from="1560482601263" duration="1573000" />
+      <workItem from="1560699813907" duration="17000" />
+      <workItem from="1560770866896" duration="3088000" />
+      <workItem from="1561182253525" duration="722000" />
+      <workItem from="1561424397793" duration="1929000" />
+      <workItem from="1561471377358" duration="1077000" />
+      <workItem from="1561907328705" duration="1230000" />
+      <workItem from="1561977561514" duration="29000" />
+      <workItem from="1561994885140" duration="3073000" />
+      <workItem from="1562292175673" duration="779000" />
+      <workItem from="1562294433698" duration="1024000" />
+      <workItem from="1562391104474" duration="8985000" />
+      <workItem from="1562422021261" duration="170000" />
+      <workItem from="1562678597374" duration="2332000" />
+      <workItem from="1562736380772" duration="974000" />
+      <workItem from="1562737493685" duration="13000" />
+      <workItem from="1562753760639" duration="1104000" />
+      <workItem from="1562762726350" duration="1484000" />
+      <workItem from="1563085728653" duration="4665000" />
+      <workItem from="1563162804442" duration="1912000" />
+      <workItem from="1563543610843" duration="8000" />
+      <workItem from="1563543750712" duration="27000" />
+      <workItem from="1563543805011" duration="1000" />
+      <workItem from="1563543831511" duration="2099000" />
+      <workItem from="1563700998700" duration="2966000" />
+      <workItem from="1564286007482" duration="6079000" />
+      <workItem from="1564404889300" duration="865000" />
+      <workItem from="1564638259101" duration="765000" />
+      <workItem from="1565021077474" duration="1186000" />
+      <workItem from="1565170346071" duration="1218000" />
+      <workItem from="1566120771934" duration="739000" />
+      <workItem from="1566895684249" duration="132000" />
+      <workItem from="1566995855546" duration="21000" />
+      <workItem from="1567049364528" duration="41000" />
+      <workItem from="1567146049863" duration="13000" />
+      <workItem from="1567220429606" duration="1820000" />
+      <workItem from="1567249901485" duration="29000" />
+      <workItem from="1567255665350" duration="708000" />
+      <workItem from="1567256495364" duration="1316000" />
+      <workItem from="1567260665369" duration="13000" />
+      <workItem from="1567340677227" duration="4141000" />
+      <workItem from="1567400763875" duration="23000" />
+      <workItem from="1567680448811" duration="3653000" />
+      <workItem from="1568210242828" duration="693000" />
+      <workItem from="1568212269861" duration="5649000" />
+      <workItem from="1568290529060" duration="9530000" />
+      <workItem from="1568381616264" duration="7980000" />
+      <workItem from="1568804404912" duration="2198000" />
+      <workItem from="1569069753305" duration="6327000" />
+      <workItem from="1569245893791" duration="14433000" />
+      <workItem from="1569676687150" duration="2689000" />
+      <workItem from="1569735820951" duration="441000" />
+      <workItem from="1569737359323" duration="1384000" />
+      <workItem from="1569937329746" duration="626000" />
+      <workItem from="1570358922574" duration="3695000" />
+      <workItem from="1570365856473" duration="11000" />
+      <workItem from="1570376126406" duration="4036000" />
+      <workItem from="1570423453322" duration="2009000" />
+      <workItem from="1570538691657" duration="12492000" />
+      <workItem from="1570603185157" duration="4826000" />
+      <workItem from="1570620650888" duration="7131000" />
+      <workItem from="1570683269149" duration="363000" />
+      <workItem from="1570684836501" duration="30400000" />
+      <workItem from="1570858410229" duration="256000" />
+      <workItem from="1571043026213" duration="3566000" />
+      <workItem from="1571208688453" duration="1176000" />
+      <workItem from="1572534020926" duration="3537000" />
+      <workItem from="1572581384633" duration="11104000" />
+      <workItem from="1572769640990" duration="50000" />
+      <workItem from="1572789658934" duration="46000" />
+      <workItem from="1572833873482" duration="2545000" />
+      <workItem from="1572862633400" duration="3302000" />
+      <workItem from="1572962030002" duration="15000" />
+      <workItem from="1573537815024" duration="1423000" />
+      <workItem from="1574087473335" duration="6698000" />
+      <workItem from="1574144702552" duration="12000" />
+      <workItem from="1574393157647" duration="1948000" />
+      <workItem from="1574417525120" duration="1708000" />
+      <workItem from="1574579647192" duration="30000" />
+      <workItem from="1574756657855" duration="5133000" />
+      <workItem from="1574770942087" duration="811000" />
+      <workItem from="1574861520260" duration="4797000" />
+      <workItem from="1574868624167" duration="80000" />
+      <workItem from="1574929971602" duration="618000" />
+      <workItem from="1574938845985" duration="4963000" />
+      <workItem from="1574944119912" duration="5129000" />
+      <workItem from="1575013537230" duration="27400000" />
+      <workItem from="1575174222261" duration="1941000" />
+      <workItem from="1575192422150" duration="2633000" />
+      <workItem from="1575442619227" duration="119000" />
+      <workItem from="1575443763240" duration="1793000" />
+      <workItem from="1575466868965" duration="4682000" />
+      <workItem from="1575473411801" duration="1875000" />
+      <workItem from="1575539257317" duration="2000" />
+      <workItem from="1575598483201" duration="451000" />
+      <workItem from="1575794181353" duration="1261000" />
+      <workItem from="1575819452302" duration="203000" />
+      <workItem from="1575868739356" duration="652000" />
+      <workItem from="1575894178914" duration="77000" />
+      <workItem from="1575952317907" duration="7043000" />
+      <workItem from="1575968328370" duration="529000" />
+      <workItem from="1575973240528" duration="12000" />
+      <workItem from="1575979153799" duration="262000" />
+      <workItem from="1575985313657" duration="2782000" />
+      <workItem from="1576047149492" duration="78000" />
+      <workItem from="1576059673130" duration="136000" />
+      <workItem from="1576153541205" duration="236000" />
+      <workItem from="1576156310422" duration="1755000" />
+      <workItem from="1576205408483" duration="445000" />
+      <workItem from="1576216042127" duration="394000" />
+      <workItem from="1576326765013" duration="11082000" />
+      <workItem from="1576340036854" duration="1074000" />
+      <workItem from="1576381192357" duration="3949000" />
+      <workItem from="1576578270092" duration="1310000" />
+      <workItem from="1577193970191" duration="817000" />
+      <workItem from="1577623613869" duration="986000" />
+      <workItem from="1577713500842" duration="894000" />
+      <workItem from="1577719427189" duration="3304000" />
+      <workItem from="1577880765483" duration="7000" />
+      <workItem from="1577924727034" duration="1599000" />
+      <workItem from="1578127217522" duration="3761000" />
+      <workItem from="1578217856883" duration="4941000" />
+      <workItem from="1578237267055" duration="2462000" />
+      <workItem from="1578289034649" duration="4331000" />
+      <workItem from="1578299111640" duration="1234000" />
+      <workItem from="1578842680717" duration="648000" />
+      <workItem from="1578844156341" duration="196000" />
+      <workItem from="1578938786577" duration="1974000" />
+      <workItem from="1579152437609" duration="236000" />
+      <workItem from="1579323349002" duration="612000" />
+      <workItem from="1579416779029" duration="214000" />
+      <workItem from="1579770423210" duration="18000" />
+      <workItem from="1580223589403" duration="1189000" />
+      <workItem from="1580296511848" duration="53000" />
+      <workItem from="1580534698715" duration="2133000" />
+      <workItem from="1580570624888" duration="1624000" />
+      <workItem from="1580614345460" duration="1758000" />
+      <workItem from="1580623493834" duration="172000" />
+      <workItem from="1580623787234" duration="542000" />
+      <workItem from="1580781841948" duration="1318000" />
+      <workItem from="1580889552369" duration="2378000" />
+      <workItem from="1580901096679" duration="1715000" />
+      <workItem from="1580912284873" duration="2031000" />
+      <workItem from="1580915739147" duration="601000" />
+      <workItem from="1580968795915" duration="1604000" />
+      <workItem from="1580972613262" duration="2159000" />
+      <workItem from="1580977425422" duration="1337000" />
+      <workItem from="1580998421730" duration="146000" />
+      <workItem from="1581135597434" duration="959000" />
+      <workItem from="1581172407304" duration="37000" />
+      <workItem from="1581262546946" duration="1977000" />
+      <workItem from="1581342353601" duration="583000" />
+      <workItem from="1581489038481" duration="2448000" />
+      <workItem from="1581654453745" duration="443000" />
+      <workItem from="1581658007913" duration="344000" />
+      <workItem from="1581663633453" duration="835000" />
+      <workItem from="1581664804457" duration="9000" />
+      <workItem from="1581774571438" duration="3534000" />
+      <workItem from="1581781634786" duration="3419000" />
+      <workItem from="1581785093665" duration="362000" />
+      <workItem from="1581826100651" duration="1713000" />
+      <workItem from="1581837740530" duration="2461000" />
+      <workItem from="1581875079865" duration="2783000" />
+      <workItem from="1581950203209" duration="688000" />
+      <workItem from="1581994146014" duration="5482000" />
+      <workItem from="1582037027447" duration="4232000" />
+      <workItem from="1582106774677" duration="3052000" />
+      <workItem from="1582115456698" duration="3891000" />
+      <workItem from="1582126686819" duration="4008000" />
+      <workItem from="1582176376631" duration="4820000" />
+      <workItem from="1582190571941" duration="8071000" />
+      <workItem from="1582199943364" duration="3084000" />
+      <workItem from="1582262523602" duration="14644000" />
+      <workItem from="1582341697552" duration="927000" />
+      <workItem from="1582342729714" duration="1148000" />
+      <workItem from="1582352154722" duration="75000" />
+      <workItem from="1582352443387" duration="688000" />
+      <workItem from="1582359536123" duration="572000" />
+      <workItem from="1582462426089" duration="2598000" />
+      <workItem from="1582513900787" duration="21000" />
+      <workItem from="1582621191378" duration="245000" />
+      <workItem from="1583068901160" duration="1341000" />
+      <workItem from="1583668098738" duration="1153000" />
+      <workItem from="1583820925146" duration="64000" />
+      <workItem from="1583884210682" duration="716000" />
+      <workItem from="1583986828197" duration="1916000" />
+      <workItem from="1584006367608" duration="820000" />
+      <workItem from="1584057100468" duration="13000" />
+      <workItem from="1584595288895" duration="2003000" />
+      <workItem from="1585815659997" duration="68000" />
+      <workItem from="1585816008910" duration="184000" />
+      <workItem from="1585969814637" duration="89000" />
+      <workItem from="1586216454990" duration="7000" />
+      <workItem from="1590370169329" duration="1170000" />
+      <workItem from="1590392574977" duration="109000" />
+      <workItem from="1590410141679" duration="2433000" />
+      <workItem from="1590452816443" duration="994000" />
+      <workItem from="1590456341591" duration="366000" />
+      <workItem from="1590458995108" duration="5661000" />
+      <workItem from="1590474825573" duration="1050000" />
+      <workItem from="1590484715957" duration="1710000" />
+      <workItem from="1590539017840" duration="172000" />
+      <workItem from="1590539541396" duration="655000" />
+      <workItem from="1590559995222" duration="6699000" />
+      <workItem from="1590653741537" duration="654000" />
+      <workItem from="1590714433748" duration="1165000" />
+      <workItem from="1590836458937" duration="195000" />
+      <workItem from="1591189486623" duration="3553000" />
+      <workItem from="1591245651959" duration="1221000" />
+      <workItem from="1591277826432" duration="67000" />
+      <workItem from="1595994549345" duration="73000" />
+      <workItem from="1596016863057" duration="31000" />
+      <workItem from="1596609526257" duration="30000" />
+      <workItem from="1606640611214" duration="1386000" />
+      <workItem from="1609676728365" duration="43000" />
+      <workItem from="1610882286931" duration="18000" />
+      <workItem from="1616773810594" duration="4997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html5/js/pubu.html</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html5/js/pubu.html</url>
+          <line>91</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html5/js/pubu.html</url>
+          <line>79</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html5/js/pubu.html</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html5/js/pubu.html</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
